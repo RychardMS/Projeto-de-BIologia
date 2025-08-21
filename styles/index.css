@@ -65,3 +65,33 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+#video{
+    margin-bottom: 5px ;
+    width: 750px;
+    height: 450px;
+    border-radius: 35px;
+    position: fixed;
+}
+
+.btns{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90%;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+#btn1, #btn2{
+    text-decoration: none;
+    color: #ddd;
+    font-size: 17px;
+}
+
+#btn1, #btn2:hover{
+    
+}
