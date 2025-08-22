@@ -9,6 +9,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background: #f0f0f5;
   color: #333;
+  height: 300vh;
 }
 
 .container {
@@ -40,15 +41,18 @@ nav {
 nav ul {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 200px;
   list-style: none;
   margin-left: 20px;
+  
 }
 
 nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  
+ 
 }
 
 main {
@@ -56,6 +60,7 @@ main {
   padding: 2rem;
   background: white;
   border-left: 2px solid #ddd;
+  
 }
 
 footer {
@@ -71,7 +76,7 @@ footer {
     width: 750px;
     height: 450px;
     border-radius: 35px;
-    position: fixed;
+    position: absolute;
 }
 
 .btns{
@@ -82,7 +87,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-left: 90%;
-    margin-top: 10px;
+    margin-top: 5px;
     gap: 10px;
 }
 
@@ -92,6 +97,16 @@ footer {
     font-size: 17px;
 }
 
-#btn1, #btn2:hover{
-    
+#btn1:hover{
+    background-color: #0c4a91;
+    border-radius: 5px;
+    padding: 2px;
 }
+#btn2:hover{
+    background-color: #0c4a91;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+/*parte do js*/
+
