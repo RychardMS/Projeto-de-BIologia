@@ -41,7 +41,7 @@ nav {
 nav ul {
   display: flex;
   flex-direction: column;
-  gap: 200px;
+  gap: 350px;
   list-style: none;
   margin-left: 20px;
   
@@ -74,9 +74,10 @@ footer {
 #video{
     margin-bottom: 5px ;
     width: 750px;
-    height: 450px;
+    height: 750px;
     border-radius: 35px;
-    position: absolute;
+    position: fixed;
+
 }
 
 .btns{

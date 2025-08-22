@@ -10,22 +10,16 @@
 }
 
 body{
-    height: 100vh;
+    height: 500vh;
     background-color: rgb(37, 10, 10);
 }
 
-#text{
-    
-}
 
-#h1{
-
-}
 #h2{
     margin-left: 220px;
 }
 
-/* Ajusta layout para telas menores que 768px */
+
 @media (max-width: 768px) {
   body {
     font-size: 14px;
@@ -35,4 +29,63 @@ body{
 .centriolo{
     color: #fdf0f0;
     font-size: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+   
+    ;
+}
+
+
+#ft1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 750px;
+  height: 750px;
+  border-radius: 15px;
+
+}
+
+#cito{
+   color: white;
+   font-size: 30px;
+   
+     
+
+}
+.btns{
+  display: flex;
+  justify-content: space-between;
+}
+#btn {
+
+  padding: 10px 20px;
+  background-color: #990b0b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  
+  position: fixed;
+}
+#btn2 {
+  padding: 10px 20px;
+  background-color: #990b0b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  position: fixed;    /* Fixa na tela */
+  top: 10px;          /* Distância do topo */
+  right: 10px;        /* Distância da direita */
+  z-index: 1000;      /* Garante que fique visível acima dos outros elementos */
+}
+
+#citop{
+  width: 750px;
+  height: 750px;
+  display: flex;
+  margin-left: 500px ;
+  border-radius: 15px;
 }
