@@ -108,5 +108,12 @@ footer {
     padding: 2px;
 }
 
-/*parte do js*/
 
+
+/* Ajusta layout para telas menores que 768px */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    background-color: #f0f0f0;
+  }
+}

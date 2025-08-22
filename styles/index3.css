@@ -24,3 +24,15 @@ body{
 #h2{
     margin-left: 220px;
 }
+
+/* Ajusta layout para telas menores que 768px */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    background-color: #f0f0f0;
+  }
+}
+.centriolo{
+    color: #fdf0f0;
+    font-size: 30px;
+}
