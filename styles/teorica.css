@@ -73,3 +73,17 @@ body{
   transform: translateY(-150px);
   flex: 1;
 }
+
+@media (max-width:768px){
+  #img{
+    width: 100px;
+    height: 200px;
+  }
+  .divisoes{
+    margin-left: 40px;
+  }
+  #ref{
+    width: 400px;
+    height: 275px;
+  }
+}
