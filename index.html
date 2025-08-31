@@ -1,41 +1,33 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Células</title>
-  <link rel="stylesheet" href="styles/index.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartão de Perfil</title>
+  <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-  <div class="container">
-    <header>Projeto da Célula</header>
-    
-    <nav>
+
+<div class="grid-page">
+  <header>
+    <nav class="menu-top">
       <ul>
-        <li><a href="#">Início</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Contato</a></li>
+        <li class="item"><a href="teorica.html">Teórica</a></li>
+        <li class="item">Projeto de Biologia</li>
+        <li class="item"><a href="pratica.html">Pratica</a></li>
       </ul>
     </nav>
-    
-    <div class="btns">
-      <a href="pratica.html" id="btn1">Prática</a>
-      <a href="teorica.html" id="btn2">Teórica</a>
-    </div>
-    
-    <main>
-      <h1>Bem-vindo!</h1>
-      <video id="video" muted loop autoplay>
-        <source src="videos/dnas.mp4" type="video/mp4" />
-        Seu navegador não suporta o elemento de vídeo.
+  </header>
+  <main>
+    <h1 id="sejam">Sejam Bem Vindos !!!</h1>
+    <div class="alinhar-video">
+      <video id="video" muted loop autoplay >
+            <source src="dnas.mp4">
       </video>
-    </main>
-    
-    <footer>
-      &copy; 2025 Rychard, Cristhian e Eduardo - 1° INFORMÁTICA
-    </footer>
-  </div>
-  
-  <script src="celula.js"></script>
-</body>
-</html>
+    </div>
+
+  </main>
+ <footer>
+    © 2025 Rychard, Cristhian e Eduardo 1° INFORMATICA
+  </footer>
+</div>

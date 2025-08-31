@@ -5,11 +5,23 @@
       background: linear-gradient(to right, #e0f7fa, #fff);
     }
     header {
+      position: relative;
       text-align: center;
       padding: 20px;
       background-color: #b2dfdb;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
+    #seta{
+      position: fixed;
+      left: 10px;
+      top: 0;
+      font-size: 50px;
+      background: none;
+      border: none;
+      text-decoration: none;
+      color: black;
+    }
+
     h1 {
       color: #004d40;
       margin-bottom: 5px;
@@ -49,10 +61,4 @@
       font-size: 1.1em;
       color: #333;
     }
-    /* Ajusta layout para telas menores que 768px */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-    background-color: #f0f0f0;
-  }
-}
+    
