@@ -1,9 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-  background: #BFEFFF;
+  background: rgb(199, 199, 99);
   font-family: "Segoe UI", "Helvetica Neue", sans-serif;
   overflow: hidden;
+
 }
 
 
@@ -85,9 +86,10 @@ footer {
 }
 #video{
     margin-bottom: 5px ;
-    width: 750px;
-    height: 400px;
+    width: 900px;
+    height: 750px;
     border-radius: 20px;
+
 }
 
 @media (max-width: 768px) {
@@ -122,5 +124,24 @@ footer {
   #video {
     width: 100%;
     height: auto;
+
   }
+}
+
+
+
+.rodape{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 200px;
+  background-color: rgba(77, 75, 75, 0.849);
+  padding: 10px;
+}
+
+#btn1:hover,#btn2:hover, #btn3:hover{
+ background: rgb(10, 255, 71);
+ padding: 15px;
+ border-radius: 15px;
+ transition: all 0.3 ease;
 }
