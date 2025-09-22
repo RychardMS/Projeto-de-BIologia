@@ -5,90 +5,139 @@
 }
 
 body{
-    height: 500vh;
-    background-color: #afeeee;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  background: #f4fdf7;
+  color: #1c1c1c;
+  line-height: 1.6;
+  padding: 0 20px;
 }
 
-#cabeçalho{
+header{
+  background: linear-gradient(90deg, #4CAF50, #81C784, #4DB6AC);
+  padding: 15px 0;
   text-align: center;
-  margin-top: 10px;
-  color: royalblue;
-  position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
-#seta{
-  position: fixed;
-  left: 10px;
-  top: 0;
-  font-size: 50px;
-  background: none;
-  border: none;
+
+#Navbar a{
   text-decoration: none;
-  color: black;
+  color: #fff;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
-.main{
-  margin-top: 50px;
+#Navbar a:hover{
+  color: #e0f2f1;
 }
 
-#explicação{
-  text-align: center;
-  color: darkgreen;
-  font-size: 25px;
+h1, h2, h3, h4{
+  margin-top: 30px;
+  color: #2e7d32;
 }
 
-.inteiro{
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#ref{
-  width: 700px;
-  height: 500px;
-  border-radius: 10px;
+h1{
+  font-size: 2rem;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
 }
 
-.divisoes{
-  margin-top: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 80px;
-  gap: 15px;
-  margin-bottom: 15px;
+h2{
+  font-size: 1.6rem;
+  margin-bottom: 10px;
 }
 
-#nomeCelula{
-  text-align: center;
-  margin-top: 15px;
-}
-#img{
-  flex: 1;
-  width: 250px;
-  height: 380px;
-  border-radius: 10px;
-}
-#textimg{
-  text-align: center;
-  transform: translateY(-150px);
-  flex: 1;
+h4{
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #388e3c;
+  margin-top: 40px;
 }
 
-@media (max-width:768px){
-  #img{
-    width: 100px;
-    height: 200px;
+p{
+  margin-bottom: 20px;
+  font-size: 1.05rem;
+}
+
+ul{
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+li{
+  margin-bottom: 12px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  display: block;
+}
+
+main section{
+  margin-bottom: 50px;
+}
+
+h1, h2{
+  transition: transform 0.3s ease;
+}
+
+h1:hover, h2:hover{
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px){
+  body{
+    padding: 0 10px;
   }
-  .divisoes{
-    margin-left: 40px;
+
+  header{
+    text-align: center;
   }
-  #ref{
-    width: 400px;
-    height: 275px;
+
+  #Navbar a{
+    display: block;
+    margin: 10px 0;
+    font-size: 1.1rem;
+  }
+
+  h1{
+    font-size: 1.6rem;
+  }
+
+  h2{
+    font-size: 1.3rem;
+  }
+
+  p, li{
+    font-size: 1rem;
+  }
+
+  img{
+    margin: 20px auto;
   }
 }
 
-h3{
-  font-size: 25px;
-  margin-top: 200px;
+@media (max-width: 480px) {
+  h1{
+    font-size: 1.4rem;
+  }
+
+  h2{
+    font-size: 1.15rem;
+  }
+
+  #Navbar a{
+    font-size: 1rem;
+  }
+
+  p, li{
+    font-size: 0.95rem;
+  }
+
+  img{
+    width: 100%;
+    height: auto;
+  }
 }
