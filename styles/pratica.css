@@ -1,0 +1,13 @@
+
+    #seta{
+      position: fixed;
+      left: 10px;
+      top: 0;
+      font-size: 50px;
+      background: none;
+      border: none;
+      text-decoration: none;
+      color:rgb(224, 241, 230);
+      
+      margin-left: 150px;
+    }
